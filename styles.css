@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+    background-image: url('PASMA.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+
+.card {
+    background-color: rgba(30, 30, 30, 0.8); /* خلفية داكنة نصف شفافة */
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    width: 320px;
+    text-align: center;
+    padding: 25px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.8);
+}
+
+.card-header {
+    margin-bottom: 20px;
+}
+
+.card-header h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #f0f0f0;
+    background-color: rgba(0, 0, 0, 0.5); /* تضليل الخلفية للنص */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.social-link {
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    transition: transform 0.3s;
+    color: #ffffff;
+    font-size: 2em;
+}
+
+.social-link:hover {
+    transform: scale(1.1);
+}
+
+.instagram { color: #E1306C; }
+.tiktok { color: #69C9D0; }
+.facebook { color: #3b5998; }
+.whatsapp { color: #25D366; }
